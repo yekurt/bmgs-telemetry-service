@@ -24,7 +24,6 @@ import static org.springframework.web.reactive.function.server.ServerResponse.*;
 @SpringBootApplication
 @EnableEurekaClient
 @RestController
-@RequestMapping("/telemetry")
 public class TelemetryApplication {
 
 	public static void main(String[] args) {
